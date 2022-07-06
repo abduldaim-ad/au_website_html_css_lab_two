@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<title>Admission</title>
+</head>
+<body class="admission-class">
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">Admission</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div style="padding:1% 1% 5% 26%;">
+  <h3>Contact Form</h3>
+  
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="city">Degree</label>
+      <select id="city" name="city">
+        <option value="islamabad">BSSE</option>
+        <option value="rawalpindi">BSGM</option>
+        <option value="rawalpindi">BSIT</option>
+      </select>
+      <label for="birthday">DOB:</label>
+      <input type="date" id="birthday" name="birthday"> 
+      <legend>Choose your gender:</legend>
+        <label for="male">Gender</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </fieldset>
+      <label for="subject">Male</label>
+      <fieldset data-role="controlgroup" style="margin-bottom: 2%;">
+        <legend>Choose 3 Preferences:</legend>
+          <label for="red">BSSE</label>
+          <input type="checkbox" name="favcolor" id="red" value="red" checked>
+          <label for="green">BSAI</label>
+          <input type="checkbox" name="favcolor" id="green" value="green">
+          <label for="blue">BSIT</label>
+          <input type="checkbox" name="favcolor" id="blue" value="blue" checked>
+          <label for="blue">BSGM</label>
+          <input type="checkbox" name="favcolor" id="blue" value="blue" checked>
+          <label for="blue">BSMth</label>
+      </fieldset>
+      <textarea id="subject" name="subject" placeholder="Why do you want to get admission here?" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</div>
+
+</body>
+</html>
